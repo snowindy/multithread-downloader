@@ -2,3 +2,4 @@
 
 ## To be done in next version
 1. Move to Apache HttpClient
+2. Integrate HttpDetails to the first request.
