@@ -4,12 +4,12 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
-import com.github.snowindy.download.MultiThreadDownloaderTests;
-import com.github.snowindy.download.RangeDownloaderTests;
-import com.github.snowindy.util.HttpUtilsTests;
+import com.github.snowindy.download.MultiThreadDownloaderTest;
+import com.github.snowindy.download.RangeDownloaderTest;
+import com.github.snowindy.util.HttpUtilsTest;
 
 @RunWith(Suite.class)
-@SuiteClasses({ RangeDownloaderTests.class, MultiThreadDownloaderTests.class, HttpUtilsTests.class })
+@SuiteClasses({ RangeDownloaderTest.class, MultiThreadDownloaderTest.class, HttpUtilsTest.class })
 public class IntegrationTests {
 
 }

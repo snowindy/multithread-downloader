@@ -12,7 +12,7 @@ import org.junit.Test;
 import com.github.snowindy.download.RangeDownloader;
 import com.github.snowindy.util.TestUtils;
 
-public class RangeDownloaderTests {
+public class RangeDownloaderTest {
 
     @Test
     public void testRangeDownloadFromLocalMachine() throws Exception {

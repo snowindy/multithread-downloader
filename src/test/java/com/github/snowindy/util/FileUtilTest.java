@@ -1,7 +1,9 @@
 package com.github.snowindy.util;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,11 +11,7 @@ import java.util.List;
 import org.apache.commons.io.FileUtils;
 import org.junit.Test;
 
-import com.github.snowindy.util.FileUtil;
-
-import static org.junit.Assert.*;
-
-public class FileUtilTests {
+public class FileUtilTest {
 
     @Test
     public void testFileCombination() throws IOException {

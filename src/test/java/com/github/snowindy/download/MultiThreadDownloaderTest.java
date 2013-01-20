@@ -12,7 +12,7 @@ import org.junit.Test;
 
 import com.github.snowindy.util.TestUtils;
 
-public class MultiThreadDownloaderTests {
+public class MultiThreadDownloaderTest {
 
     @Test
     public void testCountChunks() {

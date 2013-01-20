@@ -1,7 +1,5 @@
 package com.github.snowindy.util;
 
-import static org.junit.Assert.assertTrue;
-
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;

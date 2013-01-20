@@ -11,7 +11,7 @@ import com.github.snowindy.download.HttpUtils;
 import com.github.snowindy.download.HttpUtils.HttpDetails;
 
 
-public class HttpUtilsTests {
+public class HttpUtilsTest {
     @Test
     public void testGetHttpResourceDetails() throws MalformedURLException {
         HttpDetails details = HttpUtils.getHttpResourceDetails(new URL("http://test1.ru/testRangeDownload.txt"));
